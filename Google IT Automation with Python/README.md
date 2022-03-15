@@ -1,13 +1,20 @@
-# Notes Crash Course Python
+# Notes Crash Course Python xDCN
 
 ``` bash
-Self documenting
-
-is written in a way thats readble and doesn't conceal it's intent
+Remember what u do. Trust yourself;
 ``` 
 
-``` bash
-
-```
 ---
--
+
+**Cheat Sheet Conditional**
+> Comparison operators a == b: a is equal to b
+- a != b: a is different than b
+- a < b: a is smaller than b
+- a <= b: a is smaller or equal to b
+- a > b: a is bigger than b
+- a >= b: a is bigger or equal to b
+
+> Logical operators
+- a and b: True if both a and b are True. Falseotherwise.
+- a or b: True if either a or b or both are True. False if both are False.
+- not a: True if a is False, False if a is True.
