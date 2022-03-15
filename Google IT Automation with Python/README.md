@@ -1,11 +1,13 @@
 # Notes Crash Course Python
 
 ``` bash
-abc
+Self documenting
+
+is written in a way thats readble and doesn't conceal it's intent
 ``` 
 
 ``` bash
-123abc
+
 ```
 ---
 -
