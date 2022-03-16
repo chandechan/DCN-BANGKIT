@@ -36,7 +36,7 @@ Python Assignment Operators
 |//=|	x //= 3	|x = x // 3	
 |**=|	x **= 3	|x = x ** 3	
 |&=	|x &= 3	x = |x & 3	
-| |=|x = 3	x = |x | 3	
+| mutlak= |x = 3	x = |x | 3	
 |^=	|x ^= 3	x = |x ^ 3	
 |>>=|	x >>= 3	|x = x >> 3	
 |<<=|	x <<= 3	|x = x << 3
@@ -48,4 +48,3 @@ Python Assignment Operators
 - ** exponentiation
 
 > Elif Keyword used to handle more than two comparison cases
-
