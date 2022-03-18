@@ -1,10 +1,11 @@
 # GRADED FUNCTION
-import numpy as np
+import numpy as np 
 
 # Our function will go through the matrix replacing each row in order turning it into echelon form.
 # If at any point it fails because it can't put a 1 in the leading diagonal,
 # we will return the value True, otherwise, we will return False.
 # There is no need to edit this function.
+
 def isSingular(A) :
     B = np.array(A, dtype=np.float_) # Make B as a copy of A, since we're going to alter it's values.
     try:
@@ -18,6 +19,7 @@ def isSingular(A) :
 
 # This next line defines our error flag. For when things go wrong if the matrix is singular.
 # There is no need to edit this line.
+
 class MatrixIsSingular(Exception): pass
 
 # For Row Zero, all we require is the first element is equal to 1.
@@ -26,6 +28,7 @@ class MatrixIsSingular(Exception): pass
 # and if this is true, we'll add one of the lower rows to the first one before the division.
 # We'll repeat the test going down each lower row until we can do the division.
 # There is no need to edit this function.
+
 def fixRowZero(A) :
     if A[0,0] == 0 :
         A[0] = A[0] + A[1]
@@ -61,6 +64,7 @@ def fixRowOne(A) :
 
 # This is the first function that you should complete.
 # Follow the instructions inside the function at each comment.
+
 def fixRowOne(A) :
     A[1] = A[1] - A[1,0] * A[0]
     if A[1,1] == 0 :
@@ -77,6 +81,7 @@ def fixRowOne(A) :
 
 # You should also complete this function
 # Follow the instructions inside the function at each comment.
+
 def fixRowTwo(A) :
     
     A[2] = A[2] - A[2,0] * A[0]
@@ -97,6 +102,7 @@ def fixRowTwo(A) :
     
 # You should also complete this function
 # Follow the instructions inside the function at each comment.
+
 def fixRowThree(A) :
     
     A[3] = A[3] - A[3,0] * A[0]
