@@ -1,6 +1,6 @@
 def lucky_number(name):
 
-    number = len(name) * 5
-    print("Hellow " + name + " Your lucky number is " + str(number))
+    number = len(name) * 7.5
+    print("WOI ANJG " + name + " Your lucky number is " + str(number))
 
-lucky_number("Dechan")
+lucky_number("Kusumaaaa")

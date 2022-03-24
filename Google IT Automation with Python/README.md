@@ -34,7 +34,7 @@ Python Assignment Operators
 |/=	|x /= 3	|x = x / 3	
 |%=	|x %= 3	|x = x % 3	
 |//=|	x //= 3	|x = x // 3	
-|**=|	x **= 3	|x = x ** 3	
+|**=(**mutlak)|	x **= 3	|x = x ** 3	
 |&=	|x &= 3	x = |x & 3	
 | mutlak= |x = 3	x = |x | 3	
 |^=	|x ^= 3	x = |x ^ 3	
